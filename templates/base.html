@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Moja strona{% endblock %}</title>
+</head>
+<body>
+
+<nav>
+    <a href="/">Home</a> |
+    <a href="/about">About me</a> |
+    <a href="/contact">Contact</a>
+</nav>
+
+<hr>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+</body>
+</html>
